@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Homepage</title>
+<title>Biodata Profile</title>
 <style>
     body{
         padding: 0;
         margin: 0;
-        
-    }
+        background-color: aliceblue;}
     
+    .bottom-right {
+        position: absolute;
+        background-color: aliceblue;
+        color: black;
+        bottom:400px;
+        right: 10%;
+        padding: 15px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        width: 250px;
+        text-align: center;
+        border-radius: 15px;}
     
-#img {
-	background-color: floralwhite;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 300vh;
-   
-   
-    }
    
     .topnav {
 	overflow: hidden;
 	background-color: white;
     padding-top: -500px;
     margin: 0;
-    padding-bottom: 0;
-    
-}
+    padding-bottom: 0;}
     
     
    .topnav a{
@@ -37,9 +39,7 @@
 	padding: 15px 15px;
 	font-size: 18px;
     font-weight: bold;
-    margin-right: 12px;
-    
-    }
+    margin-right: 12px;}
 
     
     .topnav a:hover {
@@ -47,72 +47,138 @@
 	background-color: black;
 	color: white;}
     
-    .bottom-right {
-        position: absolute;
-        background-color: aliceblue;
+    .active {
+	border-right: 1px solid #bbb;
+	background-color: black;
+	color: white!important;}
+    
+    .about {
+        background-image: url("images/HOME/INTRO.PNG");
+        width: 100%;      
+        margin: 0;
+        max-width: none;
+        background-color: #373B44;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size:cover;}
+    
+    .intro {
+        background-color:#bde0fe;
         color: black;
-        bottom: -200px;
-        right: 350px;
-        padding: 20px;
-        width: 550px;
-        text-align: center;
-}
-    .bottom-right2 {
-        position: absolute;
-        color: black;
-        top: 50px;
-        right: 350px;
-        padding: 20px;
-        width: 550px;
-        text-align: center;
-}
-    .bottom-right3 {
-        position: absolute;
-        color: black;
-        top: 700px;
-        right: 350px;
-        padding: 20px;
-        width: 550px;
-        text-align: center;
-}
-    .img2 {
-        position: absolute;
-        color: black;
-        top: 150px;
-        right: 350px;
-        padding: 20px;
-        width: 550px;
-        text-align: center;
-}
 
+        border: 3px solid #fffbce;
+        height: auto;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 20px;} 
+    
+     .text{
+            font-weight: 800; 
+            background-color:cornsilk; 
+            margin-right: 80px;
+            margin-left: 80px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+       
+    .gallery-1{
+        text-align: center;
+        margin: 0;
+        padding-left: 20px;
+    }
+    
+    .gallery-2{
+        text-align: center;
+        margin: 0;
+        padding-right:10px;
+    }
+    
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 0px;}
+    
+    .arrow{
+        margin-bottom: -2px;
+        margin-right: 5px;
+    }
+    
+
+
+    
 </style>
 </head>
-
-<body id="img">
+<body>
 <div class="topnav">
-  <a href="index.html">HOME</a>
+  <a class="active" href="index.html">HOME</a>
   <a href="biodata.html">BIODATA</a>
   <a href="experience.html">EXPERIENCE</a>
   <a href="family.html">FAMILY</a>
   <a href="gallery.html">GALLERY</a>
 </div>
     
-    <div class="bottom-right2">
-        <h1 style="font-weight: 800; background-color: antiquewhite; margin-right: 10px; margin-left: 10px ">FAMILY</h1>
-        <h3 style="font-weight: 800; background-color: gainsboro; margin-right: 10px; margin-left: 10px ">"The love of a Family is a Life's Greatest Blessing" </h3>
+<div class="about">
+    
+    <!-- <div class="bottom-right">
+    
+        <h3 style="font-weight: 800; background-color:cornsilk; margin-right: 50px;margin-left: 50px ">Get In Touch</h3>
+       
+        <a  href="https://www.facebook.com/amila.syuhada.9" target="_blank"> <img src="https://img.icons8.com/fluency/35/000000/facebook-new.png"/></a>
+ 
+        <a href="https://www.instagram.com/amilasyuhada/" target="_blank"><img src="https://img.icons8.com/fluency/35/000000/instagram-new.png"/></a>
+
+        <a href="mailto:amilasyuhada99@gmail.com"><img src="https://img.icons8.com/fluency/35/000000/email-open.png"/></a>
+
+        <a href="tel:+60102304437"><img src="https://img.icons8.com/nolan/35/apple-phone.png"/></a> </div> --></div> 
+
+    <div class="intro">
+    <div class="text"><p>Hi, I’am Mila. Just make sure that you’re ready to explore more about me ! </p>
+    
+    <p>A simple quotes about me. I am an easy person; I believe in being strong when everything seems to
+        be going wrong. </p>
+    <p>I believe that happy girls are the prettiest girls. </p>
+    <p>I believe that tomorrow is another day, and I believe in miracle, so everyday gonna be a new day for me. </p>
+    <p>I will fight my best for my future and love. </p> </div></div>
+
+    <div style="text-align: center; padding-bottom: 25px">
+    
+    <h2 style="font-weight: 900!important;text-align: center; font-size: 32px;">Sneak peek of my life</h2>
+    
+    <p>I am a freelance model, a student, and an independent businesswoman.</p>
+    
     </div>
     
-    <div class="img2">
-        <p><img src="images/FAMILY/Familyku.PNG" height="auto" width="auto"></p>
-    </div>
+<div class="parent">
+
+
+<div class="gallery-1"> 
+    <img src="images/HOME/Student life.PNG" alt="studentlife" width="100%" height="auto"></div>
     
-    <div class="bottom-right3">
-        <h1 style="font-weight: 800; background-color: antiquewhite; margin-right: 10px; margin-left: 10px ">IN MEMORY</h1>
-        <h3 style="font-weight: 800; background-color: gainsboro; margin-right: 10px; margin-left: 10px ">Al-Fatihah Papa Tersayang </h3>
-    </div>
+    <div class="gallery-2">
+    <img src="images/HOME/Bussiness.PNG" alt="studentlife" width="95%" height="auto"></div>
+</div>
+    <div style="text-align: center;padding-left: 20px;padding-right: 20px;padding-top: 20px">
+    <img src="images/HOME/Freelance model.PNG" alt="studentlife" width="100%" height="auto"></div>
     
-    <div class="img2">
-        <p><img src="images/FAMILY/81f8585a-271c-47e7-a5c6-06061308bec9.mp4" height="auto" width="auto"></p>
+    
+ <div class="intro">
+    <div class="text"  style="padding-bottom: 40px!important;" ><h1>Let's go explore my more about me. </h1>
+        
+        <div style="margin-bottom: 20px"> 
+        
+        <a  href="https://www.facebook.com/amila.syuhada.9" target="_blank"> <img src="https://img.icons8.com/fluency/35/000000/facebook-new.png"/></a>
+ 
+        <a href="https://www.instagram.com/amilasyuhada/" target="_blank"><img src="https://img.icons8.com/fluency/35/000000/instagram-new.png"/></a>
+
+        <a href="mailto:amilasyuhada99@gmail.com"><img src="https://img.icons8.com/fluency/35/000000/email-open.png"/></a>
+
+        <a href="tel:+60102304437"><img src="https://img.icons8.com/nolan/35/apple-phone.png"/></a></div>
+        
+        <img class="arrow" src="https://img.icons8.com/ios-filled/15/000000/chevron-right.png"/><a href="biodata.html">Click Here for Next Page</a>
+     </div>
     </div>
     
 </body>
